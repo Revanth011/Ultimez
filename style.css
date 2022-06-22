@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, #ffffff, #ebddff, #e0b9ff, #dd8fff, #e15afe);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+    font-weight: 500;
+}
+
+.headerLeft {
+    font-size: 22px;
+}
+
+.headerCenter span {
+    margin: 8px;
+    cursor: pointer;
+}
+
+.headerRight button {
+    outline: none;
+    border: none;
+    background: rgb(4, 164, 192);
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    padding: 0px 80px 0px 80px;
+}
+
+.mainHeader {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.mainPara {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 10px 0px 10px 0px;
+}
+
+.mainLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainLeft button {
+    outline: none;
+    border: none;
+    background: rgb(4, 164, 192);
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.mainRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainImg {
+    position: relative;
+}
+
+.mainRight .square {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 440px;
+    height: 240px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-image: linear-gradient(to right top, #ff7900, #ff8000, #ff8700, #ff8d00, #ff9400);
+    align-self: flex-end;
+}
+
+.bottom {
+    padding: 0px 80px 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomLeft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    width: 260px;
+    height: 180px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.cardTitle {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(4, 164, 192);
+}
+
+.cardTitle1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.cardTitle2 {
+    font-size: 22px;
+
+}
+
+.bottomRight {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.bottomHeader {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.bottomPara {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0px 10px 0px;
+}
